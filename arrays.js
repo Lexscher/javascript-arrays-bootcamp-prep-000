@@ -13,8 +13,8 @@ function addElementToBeginningOfArray(arr, str) {
 }
 
 function destructivelyAddElementToBeginningOfArray(arr, str) {
-  arr = arr.unshift(str);
-  return arr
+  var myArr = arr.unshift(str);
+  return arr;
 }
 
 function addElementToEndOfArray(arr, str) {
