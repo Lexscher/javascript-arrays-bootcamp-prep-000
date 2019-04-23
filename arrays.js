@@ -41,3 +41,13 @@ function removeElementFromBeginningOfArray(arr) {
   return newArr;
 }
 
+function destructivelyRemoveElementFromEndOfArray(arr) {
+  arr.pop();
+  return arr;
+}
+
+function removeElementFromEndOfArray(arr) {
+  arrLen = arr.length - 1;
+  let newArr = arr.slice(0, arrLen);
+  return newArr;
+}
