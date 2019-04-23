@@ -13,10 +13,7 @@ function addElementToBeginningOfArray(arr, str) {
 }
 
 function destructivelyAddElementToBeginningOfArray(arr, str) {
-  var myArr = arr.unshift(str);
-  console.log("              FIRST TEST: " + str + "          ");
-  console.log("              FIRST TEST: " + arr + "          ");
-  console.log("          FIRST TEST: " + myArr + "          ");
+  arr.unshift(str);
   return arr;
 }
 
