@@ -17,7 +17,7 @@ function destructivelyAddElementToBeginningOfArray(arr, str) {
   console.log("              FIRST TEST: " + str + "          ");
   console.log("              FIRST TEST: " + arr + "          ");
   console.log("          FIRST TEST: " + myArr + "          ");
-  return myArr;
+  return arr;
 }
 
 function addElementToEndOfArray(arr, str) {
