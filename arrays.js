@@ -8,7 +8,7 @@ var ingredient6 = "garlic"
 var chocolateBars = ['snickers', 'hundred grand', 'kit kat', 'skittles'];
 
 function addElementToBeginningOfArray(arr, str) {
-  const newArr =[str, ...arr];
+  var newArr = [str, ...arr];
   return newArr;
 }
 
@@ -17,7 +17,7 @@ function destructivelyAddElementToBeginningOfArray(arr, str) {
 }
 
 function addElementToEndOfArray(arr, str) {
-  const newArr = [...arr, str];
+  var newArr = [...arr, str];
   return newArr;
 }
 
